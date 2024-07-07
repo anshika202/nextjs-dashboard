@@ -51,7 +51,7 @@ const Table = ({transactions}) => {
         </thead>
         <tbody>
             {transactions.map((item, idx) => (
-                <TableData item={item} idx={idx}/>
+                <TableData item={item} idx={idx} key={1}/>
             ))}
         </tbody>
     </table>
