@@ -73,7 +73,7 @@ const Home = () => {
 
             <ul className='flex justify-between items-center gap-x-2'>
               <li className='cursor-pointer p-0.5 h-7 w-7 text-sm grid place-items-center rounded bg-[#146EB4] text-white'>1</li>
-              <li className='cursor-pointer p-0.5 h-7 w-7 text-sm grid place-items-center rounded'>2</li>  
+              <li className='cursor-pointer p-0.5 h-7 w-7 text-sm grid place-items-center rounded hover:bg-[#146EB4]'>2</li>  
             </ul>
 
             <button className='flex gap-x-2 items-center border border-[#D9D9D9] px-3 py-1 font-medium rounded text-sm'>
